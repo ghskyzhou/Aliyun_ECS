@@ -1,0 +1,12 @@
+{
+    "RAMuser": {
+        "AccessKeyId": "AAA",
+        "AccessKeySecret": "BBB",
+        "RegionId": "cn-shenzhen"
+    },
+    "MonitorPort": "18923",
+    "Subscribe": {
+        "InstanceId": [],
+        "Name": []
+    }
+}

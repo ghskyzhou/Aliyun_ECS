@@ -1,0 +1,8 @@
+env/*
+*.log
+__pycache__/*
+config - 副本.json
+monitor_config.json
+config.json
+*.lock
+logs/*
