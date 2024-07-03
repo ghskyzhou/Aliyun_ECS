@@ -5,6 +5,15 @@
 
 ***推荐使用python虚拟环境virtualenv**
 
+## 配置阿里云ECS的API访问权限
+
+*使用API管理ECS实例，您需要能访问ECS资源的AccessKey（AccessKey ID和AccessKey Secret）。为了保证云服务的安全，您需要创建一个能访问ECS资源的RAM用户，获取该用户的AccessKey，并使用这个RAM用户和API管理ECS实例。*  --by Aliyun文档
+
+具体内容请见[阿里云文档查询ECS实例](https://help.aliyun.com/zh/ecs/developer-reference/query-an-ecs-instance)中的获取RAM用户AccessKey
+
+**注意：必须要按照按照步骤配置好才能监测！**
+
+
 ## 服务器配置监测器
 阿里云ECS服务器监测器，用于监测服务器的CPU、内存、磁盘等无法通过阿里云ECS SDK获取的信息，并通过flask框架将信息以json格式返回给客户端
 
@@ -60,4 +69,6 @@ pip install aliyun-python-sdk-ecs
 
 参考文档：
 
-[阿里云ECS服务器API参考](https://help.aliyun.com/zh/ecs/developer-reference/api-reference-ecs/)"# Aliyun_ECS" 
+[阿里云ECS服务器API参考](https://help.aliyun.com/zh/ecs/developer-reference/api-reference-ecs/)
+
+#### 感谢Yuckxi对此应用功能和使用的测试！
